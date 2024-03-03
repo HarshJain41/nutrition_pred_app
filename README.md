@@ -13,10 +13,10 @@ Here's the link of the app if you want to play around with it - https://huggingf
    
 ## There are 2 main functions defined to build the app:
 
-### get_gemini_response(input_prompt, image): 
+#### get_gemini_response(input_prompt, image): 
 This function takes an input prompt and an image as input parameters. It utilizes the Generative AI model called 'gemini-pro-vision' to generate content based on the input prompt and image. The function returns the generated text response.
 
-### input_image_setup(uploaded_file): 
+#### input_image_setup(uploaded_file): 
 This function takes an uploaded file as input and checks if a file has been uploaded. If a file is uploaded, it reads the file into bytes and creates a dictionary containing information about the image. And finally the function returns the image data.
 
 ## Work in Progress:
